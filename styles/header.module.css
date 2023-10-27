@@ -1,0 +1,36 @@
+.headerBox{
+    background-color: var(--bg-green-color);
+    padding: 30px 20px;
+}
+
+.headerSubtitle, .headerText{
+    color: var(--text-white-color);
+    font-weight: 400;
+}
+
+.headerTitle{
+    font-size: 38px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.headerSubtitle{
+    font-size: 28px;
+    margin: 0px;
+}
+
+@media (min-width: 768px) {
+    .headerSubtitle{
+        text-align: center;
+    }
+
+    .headerBox{
+        max-width: 787px;
+        margin: 0 auto;
+    }
+
+    .headerText{
+        max-width: 50%;
+        margin: 1rem auto;
+    }
+}
