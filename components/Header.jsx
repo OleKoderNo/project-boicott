@@ -5,7 +5,7 @@ const Header = ({ title, subtitle, description }) => {
     <header>
       <h1 className={styles.headerTitle}>{title}</h1>
       <div className={styles.headerBox}>
-        {<h2 className={styles.headerSubtitle}>{subtitle}</h2>}
+        <h2 className={styles.headerSubtitle}>{subtitle}</h2>
         {description && <p className={styles.headerText}>{description}</p>}
       </div>
     </header>

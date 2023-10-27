@@ -1,0 +1,44 @@
+/* ArticleCard.module.css */
+.articleCard {
+    max-width: 320px;
+    background-color: #ececec;
+    margin: 0 auto;
+  }
+
+  .contentWrapper{
+    padding: 20px;
+  }
+
+  .tagsWrapper{
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .articleImage {
+    width: 320px;
+  }
+  
+  .articleHeading {
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0;
+  }
+  
+  .articleParagraph {
+    margin: .8rem 0;
+  }
+  
+  .articleTag{
+    font-size: 14px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  .articleButton {
+    color: var(--text-white-color);
+    background-color: var(--bg-green-color);
+    padding: 1rem 2rem;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+  }
